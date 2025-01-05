@@ -11,7 +11,7 @@ convert "Drink Name.jpg" -resize 512x640^ -gravity north -extent 512x640 "Drink 
 ## Codes
 Codes are in `pods_data.csv` file formatted as:
 ```
-Drink Name,code
+code,Drink Name
 ```
 
 The drink name in the csv file should correspond to the `jpg` file name in the `images` directory.
